@@ -1,35 +1,98 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<div align="center">
+
+# Spotify Clone
+
+### Music Streaming UI Clone
+
+[![Next.js](https://img.shields.io/badge/Next.js-14-black?style=flat-square&logo=next.js)](https://nextjs.org/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue?style=flat-square&logo=typescript)](https://www.typescriptlang.org/)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind-3.4-38B2AC?style=flat-square&logo=tailwind-css)](https://tailwindcss.com/)
+
+[Features](#features) | [Tech Stack](#tech-stack) | [Getting Started](#getting-started)
+
+</div>
+
+---
+
+## Overview
+
+A Spotify-inspired music streaming interface clone built with Next.js and TypeScript. Features the iconic dark theme, navigation sidebar, and music player UI.
+
+## Features
+
+- **Spotify-like UI** - Faithful recreation of the interface
+- **Sidebar Navigation** - Library, playlists, home
+- **Player Controls** - Play, pause, skip, volume
+- **Playlist View** - Track listings
+- **Dark Theme** - Spotify's signature look
+- **Responsive** - Mobile-friendly layout
+
+## Tech Stack
+
+| Category | Technology |
+|----------|------------|
+| Framework | Next.js 14 |
+| Language | TypeScript |
+| Styling | Tailwind CSS |
+| Icons | React Icons |
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
+
+- Node.js 18+
+- npm
+
+### Installation
 
 ```bash
+# Clone the repository
+git clone https://github.com/itzkennedydev/Spotify-clone.git
+cd Spotify-clone
+
+# Install dependencies
+npm install
+
+# Start development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) to view the clone.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Project Structure
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+```
+Spotify-clone/
+├── app/                   # Next.js App Router
+├── components/            # React components
+│   ├── Sidebar/          # Navigation sidebar
+│   ├── Player/           # Music player
+│   └── ...               # Other components
+├── public/               # Static assets
+└── styles/               # Global styles
+```
 
-## Learn More
+## Scripts
 
-To learn more about Next.js, take a look at the following resources:
+| Command | Description |
+|---------|-------------|
+| `npm run dev` | Start dev server |
+| `npm run build` | Build for production |
+| `npm run start` | Start production server |
+| `npm run lint` | Run ESLint |
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Disclaimer
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+This is a UI clone for educational purposes. All Spotify branding and trademarks belong to Spotify AB.
 
-## Deploy on Vercel
+## License
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+This project is for educational purposes.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
-# Spotify-clone
+---
+
+<div align="center">
+
+**Learning by building**
+
+</div>
