@@ -87,7 +87,7 @@ This is a UI clone for educational purposes. All Spotify branding and trademarks
 
 ## License
 
-This project is for educational purposes.
+MIT - This project is for educational purposes only.
 
 ---
 
